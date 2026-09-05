@@ -1,0 +1,17 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #172033; background: #f8fafc; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { display: flex; align-items: center; gap: 28px; padding: 18px 7%; background: #172033; color: white; }
+.brand { color: white; font-size: 1.15rem; font-weight: 800; text-decoration: none; }
+nav { display: flex; gap: 18px; flex: 1; }
+nav a { color: #cdd3e0; text-decoration: none; }
+nav a.active, nav a:hover { color: white; }
+.student-badge { padding: 7px 12px; border-radius: 999px; background: #536dfe; font-size: .9rem; }
+.content { width: min(100% - 48px, 900px); margin: 70px auto; }
+.eyebrow { color: #536dfe; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: 8px 0 16px; }
+.button, .content a { display: inline-block; margin-top: 18px; color: #536dfe; font-weight: 700; }
+.button { padding: 12px 18px; border-radius: 8px; color: white; background: #536dfe; text-decoration: none; }
+.course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; }
+.course-card { padding: 24px; background: white; border: 1px solid #e4e8f0; border-radius: 14px; box-shadow: 0 8px 24px #1720330d; }
+.course-card h2 { margin-top: 0; }

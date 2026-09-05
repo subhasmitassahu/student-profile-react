@@ -1,0 +1,13 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #172033; background: #eef2ff; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+.card { width: min(100%, 520px); padding: 32px; background: white; border-radius: 18px; box-shadow: 0 16px 40px #25316d1f; }
+.eyebrow { margin: 0 0 8px; color: #536dfe; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; }
+h1, h2 { margin-top: 0; }
+form { display: grid; gap: 16px; }
+label { display: grid; gap: 7px; font-weight: 600; }
+input { padding: 11px 12px; border: 1px solid #cdd3e0; border-radius: 8px; font: inherit; }
+button { padding: 12px; border: 0; border-radius: 8px; color: white; background: #536dfe; font: inherit; font-weight: 700; cursor: pointer; }
+.result { margin-top: 24px; padding: 18px; border-radius: 12px; background: #eef2ff; }
+.result p { margin: 8px 0 0; }

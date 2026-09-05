@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "q2": "vite q2-student-registration",
+    "q3": "vite q3-course-management",
     "build": "vite build",
+    "build:q2": "vite build q2-student-registration",
+    "build:q3": "vite build q3-course-management",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -13,7 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3"
   },
   "devDependencies": {
     "vite": "^8.2.2"
