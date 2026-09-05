@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "q1": "vite q1-student-profile",
     "q2": "vite q2-student-registration",
     "q3": "vite q3-course-management",
     "build": "vite build",
+    "build:q1": "vite build q1-student-profile",
     "build:q2": "vite build q2-student-registration",
     "build:q3": "vite build q3-course-management",
     "preview": "vite preview"

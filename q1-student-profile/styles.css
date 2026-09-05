@@ -1,0 +1,10 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #172033; background: #eef2ff; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { min-height: 100vh; padding: 70px 24px; width: min(100%, 950px); margin: auto; }
+.eyebrow { margin: 0 0 8px; color: #536dfe; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; }
+h1 { margin: 0 0 28px; font-size: clamp(2rem, 5vw, 3.5rem); }
+.student-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.student-card { padding: 24px; background: white; border-radius: 14px; box-shadow: 0 12px 30px #25316d1f; }
+.student-card h2 { margin-top: 0; color: #536dfe; }
+.student-card p { margin: 12px 0 0; }
